@@ -10,12 +10,6 @@ mongoose.connect('mongodb://localhost/my-blog', {
     useUnifiedTopology: true
 });
 
-const mongoUri = process.env.mongodb+srv://jeternal:<password>@cluster0.9ryi0yf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0;
-mongoose.connect(mongoUri, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-});
-
 const UserSchema = new mongoose.Schema({
     username: String,
     password: String
