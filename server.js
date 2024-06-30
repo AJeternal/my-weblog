@@ -5,7 +5,7 @@ const path = require('path');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://jeternal:<password>@cluster0.9ryi0yf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('mongodb+srv://jeternal:<AmirMRX1385>@cluster0.9ryi0yf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
